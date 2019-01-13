@@ -2,5 +2,5 @@
 <%= f.text_field :estimate_name %>
 <%= f.select :shop_id, @shops.map{|t| [t.shop_name, t.id]} %>
 <%= f.select :accident_id, @accidents.map{|t| [t.accident_title, t.id]} %>
-<%= f.submit "登録" %>
+<%= f.submit "登録完了" %>
 <% end %>
